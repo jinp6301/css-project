@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border: 10px solid gray;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  color: gray;
+  background-color: gray;
+  height: 5px;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 0;
+}
+
+.name {
+  color: blue;
+
+}
+
+.time {
+  color: gray;
+
+}
+
+.profile-pic {
+  height: 45px;
+  width: 45px;
+  background-color: blue;
+  float:left;
+  margin: 10px;
+}
+
+.clearfix {
+  clear:both;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.post {
+  padding: 10px;
+}
+
+.name {
+  padding: 15px 5px 0 5px;
+  margin-left: 10px;
+}

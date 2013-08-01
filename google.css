@@ -1,0 +1,170 @@
+body {
+  font-family: sans-serif;
+}
+
+ul, li, a {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+
+nav.top {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+nav.top > ul {
+  float: left;
+  background-color: #2D2D2D;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+nav.top > ul > li > a {
+  color: grey;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+nav.top > ul > li:nth-child(2) > a {
+  color: white;
+}
+
+
+
+nav.top > ul > li > a:hover {
+  color: white;
+}
+
+nav.bottom > ul {
+  float: right;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+li {
+  display: inline-block;
+}
+
+.sign-in {
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 70px;
+  display: block;
+  text-transform: uppercase;
+  background-color: red;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.logo, .search-bar, .search-bar-input {
+  text-align: center;
+  padding: 5px;
+}
+
+.search-button, .lucky-button {
+  margin-top: 10px;
+  text-align: center;
+  padding: 5px;
+  border: none;
+  background-color: lightgray;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.search-bar-input {
+  margin: auto;
+  display: block;
+}
+
+.summmer-times {
+  margin: auto;
+}
+
+ul.more {
+  position: absolute;
+  display: none;
+}
+
+ul.more > li {
+  color: black;
+  display: block;
+  border: 1px solid gray;
+  border-top-style: none;
+  border-bottom-style: none;
+  width: 75px;
+  padding: 10px;
+  /*white-space:nowrap;*/
+}
+
+ul.more > li:last-child {
+  border: 1px solid gray;
+/*  border-top-style: 1px solid yellow;*/
+  border-bottom-style: solid;
+}
+
+ul.more > li > a {
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+nav.top > ul > li:hover {
+  background-color: white;
+}
+
+nav.top > ul > li:hover > a {
+  color: black;
+}
+
+nav.top > ul > li:hover > ul.more {
+  display: block;
+  margin: auto;
+}
+
+nav.bottom {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+nav.bottom > ul.bottom-bar {
+  float: right;
+}
+
+nav.bottom > ul.bottom-bar > li{
+  padding: 10px;
+}
+
+nav.bottom > ul.bottom-bar > li > a{
+  text-decoration: none;
+  font-size: 13px;
+  color: gray;
+}
+
+nav.bottom > ul.bottom-bar > li > a:hover {
+  text-decoration: underline;
+}

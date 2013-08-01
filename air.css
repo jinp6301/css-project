@@ -1,0 +1,125 @@
+body {
+  font-family: 'lucida grande';
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+header, nav, ul, li, a {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+header {
+  width: 780px;
+  margin: auto;
+}
+
+nav.top {
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.sites {
+}
+
+ul {
+  list-style-type: none;
+  overflow:hidden;
+
+}
+
+ul > li {
+  float: left;
+  padding: 10px 30px;
+  border: 1px solid black;
+  position: relative;
+  border-style: none;
+  border-right-style: solid;
+}
+
+li:last-child {
+  padding: 6px 0 6px 6px;
+  border-right-style: none;
+}
+
+nav.second > img {
+  margin-top: 20px;
+}
+
+ul.options {
+  float: right;
+  width: 540px;
+}
+
+ul.options > li {
+  padding: 0 10px;
+  margin-top: 30px;
+  margin-bottom:5px;
+  border: none;
+}
+
+ul.options > li > a {
+  color: black;
+}
+
+ul.options > li:nth-last-child(2) > a {
+  color: gray;
+}
+
+ul.options > li:nth-last-child(1) > a {
+  color: white;
+  background: blue;
+  padding: 3px 5px;
+  border-radius: 10px;
+}
+
+.laptop-images {
+  float: right;
+}
+
+.laptop-images > img {
+  padding: 50px 20px 30px 20px;
+}
+
+.laptop-names {
+  float: right;
+}
+
+.laptop-names > span {
+  padding: 10px 60px;
+}
+
+.prices {
+  padding-top: 20px;
+  font-size: 24;
+}
+
+.prices > .label {
+  float: left;
+  padding-right: 100px;
+}
+
+.prices > .values {
+  float: right;
+}
+
+.prices > .values > span {
+  padding: 10px 30px 30px;
+}
+
+.prices > * {
+  border-top: 1px solid grey;
+  padding-top: 10px;
+}
